@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import LessonView from "@/views/LessonView.vue";
 import VocabularyView from "@/views/VocabularyView.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(), // <-- เปลี่ยนตรงนี้
   routes: [
     {
       path: "/",
