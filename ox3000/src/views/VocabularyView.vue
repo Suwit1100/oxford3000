@@ -25,8 +25,8 @@
 
         <div v-if="learnedWordsList.length === 0"
             class="empty-state text-center py-5 rounded-3 border border-secondary border-opacity-25 border-dashed">
-            <i class="bi bi-inbox display-1 text-muted opacity-25"></i>
-            <p class="mt-3 text-muted">ยังไม่มีข้อมูล</p>
+            <i class="bi bi-inbox display-1  opacity-25"></i>
+            <p class="mt-3 ">ยังไม่มีข้อมูล</p>
             <router-link to="/lesson" class="btn btn-primary rounded-pill px-4">เริ่มเรียนเลย</router-link>
         </div>
 

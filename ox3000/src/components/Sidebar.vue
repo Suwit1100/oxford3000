@@ -243,6 +243,7 @@ const getPercent = (value: number, max: number) => {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .sidebar-container {
+        height: 100vh;
         width: 100%;
         position: relative;
         min-height: auto;
